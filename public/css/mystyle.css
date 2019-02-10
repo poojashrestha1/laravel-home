@@ -1,0 +1,134 @@
+body
+{
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu
+{
+	font-weight: bolder;
+	text-decoration: none;
+	margin-top: 0px;
+	display: inherit;
+	padding-right: 25%;
+	padding-left: 35%;
+}
+
+
+.banner img
+{
+	width: 100%;
+}
+
+.menu ul
+{
+	margin-top: 0px;
+	list-style-type: none; 
+	background-color: #8bd159;
+	float: left;
+	padding: 20px;
+}
+
+.menu li
+{
+	display: inline-block;
+	color: white;
+	float: left;
+}
+
+.content
+{
+	padding: 20px;
+}
+.menu li a
+{
+	text-decoration: none;
+	padding: 20px;
+	border-spacing: 10px;
+}
+
+.menu li a:hover
+{
+	background-color: #688eba;
+}
+
+*
+{
+	box-sizing: border-box;
+}
+
+.text img
+{
+	max-height: 250px;
+	max-width: 400px;
+}
+
+.utext
+{
+	  word-wrap: break-word;
+      padding: 10px;
+      max-width: 50%;
+}
+
+.upper, .mid, .lower
+{
+	display: flex;
+}
+
+.lower img
+{
+	padding: 10px;
+}
+
+.lower .rimg img
+{
+	padding-left: 0px;
+}
+
+.sidebar img
+{
+	width: 200px;
+	height: 150px;
+	float: left;
+    padding: 10px;
+}
+
+.sidebar h1
+{
+    color: white;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+   padding-top: 5px;
+}
+.sidebar
+{
+    background-color: black;
+    max-height: 70%;
+}
+.scrollable
+{
+	display: flex;
+	background-color: aquamarine;
+    overflow: auto;
+    max-height: 60%;
+}
+
+.stext
+{
+	padding: 5px;
+	word-wrap: break-word;
+}
+
+.footer
+{
+	background-color: orange;
+	padding: 10px;
+}
+
+.scrollable img
+{
+	height: 50%;
+	width: 50%;
+}
+
